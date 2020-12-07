@@ -1,4 +1,5 @@
 @echo off
+@chcp 65001>nul
 title Output
 
 rem Читаем ввод ника
