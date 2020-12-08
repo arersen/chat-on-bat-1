@@ -1,5 +1,6 @@
 @echo off
 
+
 set usr=%1
 set msg=%2
 
