@@ -1,11 +1,12 @@
+
 @echo off
-@chcp 65001>nul
+
 title Output
 
-rem Читаем ввод ника
+rem Р§РёС‚Р°РµРј РІРІРѕРґ РЅРёРєР°
 set /P i="username: "
 
-rem Открываем новый cmd для ввода
+rem РћС‚РєСЂС‹РІР°РµРј РЅРѕРІС‹Р№ cmd РґР»СЏ РІРІРѕРґР°
 start cmd.exe @cmd /k "input.bat %i%"
 
 :do
